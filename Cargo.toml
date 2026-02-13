@@ -1,0 +1,16 @@
+[package]
+name = "rust-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["full"] }
+csv = "1"
+quick-xml = "0.37"
+html2text = "0.14"
+zip = "2"
+calamine = "0.26"
+pdf-extract = "0.7"
+thiserror = "2"
